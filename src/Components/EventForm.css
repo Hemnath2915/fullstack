@@ -1,0 +1,39 @@
+/* EventForm.css */
+div {
+    margin: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 10px 0;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add your existing styles for the form elements here */
+  
+  /* You can add more styles based on your design */
+  
