@@ -1,0 +1,69 @@
+/* UserDetailPage.css */
+
+
+  .profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3498db;
+  }
+  
+  .user-details {
+    margin-left: 20px;
+  }
+  
+  .booked-events-section {
+    margin-top: 20px;
+  }
+  
+  .booked-events-section h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .event-item {
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .event-item p {
+    margin: 0;
+  }
+  /* UserDetailPage.css */
+
+.user-detail-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://img.freepik.com/free-vector/illustration-young-people-with-different-emotions_23-2148243868.jpg?w=996&t=st=1707907163~exp=1707907763~hmac=a15bea426e291008db2a2aa46dea87be2b8c5d08e905d11f46d6c91ee3084cf0') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s; /* Add a smooth transition for the box-shadow property */
+  }
+  
+  .user-detail-page:hover {
+    box-shadow: 0 0 20px rgb(0, 0, 0); /* Change box shadow on hover */
+  }
+  
+  /* Add the rest of your styles below */
+  
+  
+  /* Add more styles as needed */
+  

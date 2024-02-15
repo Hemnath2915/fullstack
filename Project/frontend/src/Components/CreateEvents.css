@@ -1,0 +1,44 @@
+  .ad-search-form{
+    display: flex;
+    margin-top: -35px;
+    padding-left: 568px;
+  }
+  .ad-poih{
+    padding-left: 40px;
+    margin-top: -41px;
+  }
+  .ad-pointer{
+    cursor: pointer;
+    float: left;
+  }
+  .ad-h1{
+    padding-top: 120px;
+    padding-left: 70px;
+  }
+  
+  .be-h1{
+    padding-top: 115px;
+    padding-left: 70px;
+  
+  }
+  .pb-5{
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 100px;
+  }
+  .be-none{
+  margin-top:50px;
+  text-align: center;
+  }
+  .be-noevents{
+  border-radius: 10px;
+  height: 30%;
+  width:25%;
+  margin-bottom: 10px;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center; 
+  }
+    

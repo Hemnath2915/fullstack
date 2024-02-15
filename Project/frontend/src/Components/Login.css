@@ -1,0 +1,97 @@
+.over {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://img.freepik.com/free-vector/tiny-people-developers-laptop-customer-requirements-software-requirement-description-user-case-agile-tool-business-analysis-concept-bright-vibrant-violet-isolated-illustration_335657-1012.jpg?w=996&t=st=1707886633~exp=1707887233~hmac=1bb40ecec7f7f46b47dc096ee247dbf3a0b9f5b16074d500ed5a67d315ab7bbd'); /* Set your background image path here */
+  background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+}
+
+.frm {
+  background: #ffffff00;
+  /* padding: 20px; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.79);
+  transition: box-shadow 0.3s; /* Add transition for a smooth effect */
+  width: 350px;
+}
+
+.frm:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Change box shadow on hover */
+}
+
+.htag {
+  text-align: center;
+  color: #333;
+  font-size: xx-large;
+  font-style: initial;
+}
+
+.lab {
+  display: block;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.in {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.but {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.but:hover {
+  background-color: #45a049;
+}
+
+.reg {
+  color: #3498db;
+  cursor: pointer;
+}
+
+.user-p1 {
+  cursor: pointer;
+  color: #3498db;
+  margin-top: 15px;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.shape {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #f0f0f0;
+  border-radius: 50%;
+}
+
+.shape:nth-child(1) {
+  top: 20%;
+  left: 20%;
+}
+
+.shape:nth-child(2) {
+  top: 60%;
+  left: 70%;
+}
